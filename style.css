@@ -1,0 +1,51 @@
+
+
+.container {
+    display: flex; /* Use flexbox to create the layout */
+    align-items: center; /* Vertically align items in the center */
+} 
+
+
+.business-card {
+    width: 400px;
+    height: 150px;
+    background-color: #82c0e9;
+    border-radius: 20px;
+    position: relative; /* Position the text relative to the container */
+    color: #29294c; /* Text color */
+    text-align: center; /* Center align the text */
+    padding: 20px; /* Add padding to the container */
+} 
+
+#name {
+    color: #4d3e83;
+} 
+
+.business-card h2 {
+    margin: 0; /* Remove default margin for heading */
+} 
+
+ p {
+    margin: 0; /* Set padding to control space within paragraphs */
+    text-align: left;
+    flex: 0; /* Let the text take up the remaining space */
+    margin-right: 80px;
+
+} 
+
+ .img_pref {
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 30%;
+    height: auto;
+    flex: 0 0 50%; 
+    
+    /* Set the image to take up 50% of the container width */
+    /*margin-right: 10px; /* Add some spacing between the image and text */
+    
+} 
+
+
+
+
+
